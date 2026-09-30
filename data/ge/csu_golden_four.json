@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0.0",
+  "dataset_id": "csu_upper_division_transfer_golden_four",
+  "kind": "transfer_admission_requirement",
+  "source": {
+    "publisher": "The California State University",
+    "document_title": "CSU upper-division transfer admission requirements",
+    "url": "https://www.calstate.edu/apply/transfer/Pages/upper-division-transfer.aspx",
+    "requirement_text": "Complete at least 60 semester (90 quarter) transferable units; complete a minimum of 30 semester (45 quarter) units of courses equivalent to general education requirements with a grade of C- or better, including all of the Golden Four: oral communication, written communication, critical thinking and mathematics/quantitative reasoning; have a grade point average of 2.0 or better in all transferable units attempted (2.4 for non-California residents); be in good standing at the last college attended.",
+    "transcribed_on": "2026-09-27",
+    "note": "Summarized from the CSU's published upper-division transfer requirements. Campuses and impacted majors may set higher or additional criteria; confirm on Cal State Apply and with the campus."
+  },
+  "scope": {
+    "type": "csu_transfer_admission_requirement",
+    "program_name": "CSU Golden Four",
+    "systems": ["CSU"],
+    "not_a_general_education_certification": true,
+    "college_specific_course_list_included": false,
+    "course_list_from": "cal_getc",
+    "note": "A CSU admission minimum for upper-division transfer, not a GE certification and not a UC requirement. The four areas use Cal-GETC numbering; which courses count comes from each college's own Cal-GETC list."
+  },
+  "transfer_pathway": {
+    "id": "csu_golden_four",
+    "name": "CSU Golden Four",
+    "display_name": "CSU Golden Four",
+    "short_description": "CSU admission minimum"
+  },
+  "golden_four": {
+    "minimum_grade": "C-",
+    "areas": [
+      {"requirement_id": "1A", "name": "Written Communication", "cal_getc_name": "English Composition"},
+      {"requirement_id": "1B", "name": "Critical Thinking", "cal_getc_name": "Critical Thinking and Composition"},
+      {"requirement_id": "1C", "name": "Oral Communication", "cal_getc_name": "Oral Communication"},
+      {"requirement_id": "2", "name": "Mathematics", "cal_getc_name": "Mathematical Concepts and Quantitative Reasoning"}
+    ]
+  },
+  "minimum_transferable_semester_units": 60,
+  "minimum_ge_semester_units": 30,
+  "ge_units_include_golden_four": true,
+  "minimum_ge_grade": "C-",
+  "minimum_gpa": 2.0,
+  "minimum_gpa_nonresident": 2.4,
+  "good_standing_required": true,
+  "notes": [
+    "Completing the Golden Four alone does not make a student eligible: the unit, GE-unit, GPA and good-standing minimums also apply.",
+    "Following this route does not certify Cal-GETC; remaining lower-division and upper-division GE is completed after transfer.",
+    "Campus and major supplemental criteria (impaction, major preparation, deadlines for completing the Golden Four) vary; confirm them with the campus."
+  ]
+}

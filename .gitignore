@@ -1,0 +1,20 @@
+__pycache__/
+*.pyc
+
+# Tool caches and build/coverage output (anchored to the project root)
+.pytest_cache/
+/build/
+/dist/
+/coverage/
+htmlcov/
+.coverage
+
+# Local environments and secrets
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Frontend dependencies
+node_modules/
